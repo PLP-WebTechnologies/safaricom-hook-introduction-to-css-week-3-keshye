@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics - Selectors, Properties, and Values</title>
+    <style>
+        /* Element Selector */
+        h1, h2 {
+            font-size: 2em; /* Change the font size of all headings */
+            color: #333; /* Change the color of headings */
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: #f0e68c; /* Apply a background color to specific sections */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* ID Selector */
+        #unique-section {
+            border: 2px solid #007BFF; /* Add a border to an element with a unique ID */
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to CSS Basics</h1>
+    <h2>Understanding Selectors</h2>
+    
+    <div class="highlight">
+        <p>This section is highlighted using a class selector. Classes are reusable styles that can be applied to multiple elements.</p>
+    </div>
+
+    <div id="unique-section">
+        <p>This section has a unique ID and a border applied to it. IDs are meant to be unique within a page.</p>
+    </div>
+
+    <div>
+        <p>Here is a regular paragraph without any special styling. It demonstrates how elements can be styled differently based on their selectors.</p>
+    </div>
+
+</body>
+</html>
